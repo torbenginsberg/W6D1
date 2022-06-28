@@ -69,6 +69,19 @@ ol li:nth-of-type(2n) {
 }
 
 h2 + .user_review {
-    border-top: 1px solid black;
+  border-top: 1px solid black;
 }
 
+nav li {
+  display: inline-block
+}
+
+nav ul li a {
+  padding: 20px;
+  display: block;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
